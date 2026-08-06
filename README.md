@@ -1,9 +1,9 @@
-# Grok Farming
+# Grok Bot Mail
 
 > **⚠️ For Research & Educational Purposes Only**  
 > This project is intended for automation research, testing environments, and personal learning. Users must comply with target website terms of service, local laws, and third-party service restrictions. Do not use this project for abuse, platform circumvention, or unauthorized commercial purposes.
 
-Automated x.ai/Grok account registration toolkit with GUI/CLI interfaces, Turnstile solver integration, and multi-mailbox support.
+Automated x.ai/Grok account registration bot with GUI/CLI interfaces, Turnstile solver integration, and multi-mailbox support.
 
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -66,8 +66,8 @@ Post-processing (token pooling, CPA export) failures only increment "post-proces
 Clone the repository:
 
 ```bash
-git clone https://github.com/senastor/grok-farming.git
-cd grok-farming
+git clone https://github.com/senastor/grok-bot-mail.git
+cd grok-bot-mail
 ```
 
 Create a virtual environment and install dependencies:
@@ -137,7 +137,7 @@ Register 10 accounts in headless mode (requires Xvfb or virtual display).
 ## Project Structure
 
 ```
-grok-farming/
+grok-bot-mail/
 ├── grok_register_ttk.py       # GUI entry point
 ├── run_headless.py             # CLI entry point
 ├── registration_flow.py        # Core registration logic
