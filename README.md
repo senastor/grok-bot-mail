@@ -163,27 +163,6 @@ grok-farming/
 
 ---
 
-## Troubleshooting
-
-### Turnstile solver not responding
-Ensure waguri/captcha-solver is running:
-```bash
-docker ps | grep captcha-solver
-curl http://localhost:8877/health
-```
-
-### Browser crashes or hangs
-- Check available memory (`free -h`)
-- Verify Xvfb is running for headless: `ps aux | grep Xvfb`
-- Check Chrome/Chromium installation: `which google-chrome chromium`
-
-### "No verification code received"
-- Verify mailbox API credentials in `config.json`
-- Check network connectivity to mailbox provider
-- Try a different mailbox service
-
----
-
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
