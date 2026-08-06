@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Sensitive data - accounts, credentials, cookies
+accounts*.txt
+account.txt
+mail_credentials.txt
+config.json
+config.local.json
+*.cookie
+*.cookies
+cookies/
+sessions/
+*.session
+
+# Screenshots and debug output
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+*.log.*
+
+# Pending/recovery files
+*.pending.jsonl
+*.pending.jsonl.lock
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# DrissionPage browser data
+DrissionPage/
+autoPortData/
+
+# CPA auth data
+cpa_auths/
+cpa_auth_*.txt
+xai-*.json
+
+# Test output
+test_*.txt
+*_test.txt
+*.tmp
+.pytest_cache/
+
+# Keep only requirements
+!requirements.txt
