@@ -169,21 +169,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## Contributing
-
-Pull requests welcome! Please ensure:
-- Code follows existing style
-- No credentials/cookies in commits
-- Test with both GUI and CLI modes
-
----
-
-## Acknowledgments
-
-- [waguri/captcha-solver](https://github.com/waguri/captcha-solver) for Turnstile solving
-- [DrissionPage](https://github.com/g1879/DrissionPage) for browser automation (if used)
-- Community contributors and testers
-
----
-
 **⚠️ Reminder**: Use responsibly and in compliance with applicable laws and terms of service.
